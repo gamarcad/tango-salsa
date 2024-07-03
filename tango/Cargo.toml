@@ -1,0 +1,15 @@
+[package]
+name = "samba"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+aes-gcm = "0.10.3"
+csv = "1.3.0"
+paillier = "0.2.0"
+rand = "0.8.5"
+rayon = "1.9.0"
+rust-elgamal = "0.4.0"
+statrs = "0.16.0"
+tfhe = { version = "0.5.3", features = ["integer", "x86_64-unix"]}
